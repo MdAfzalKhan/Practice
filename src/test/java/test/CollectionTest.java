@@ -71,5 +71,11 @@ public class CollectionTest {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
+	
+	@Test
+	public void news() {
+		System.out.println("Just to write a sentence");
+	}
+	
 
 }
